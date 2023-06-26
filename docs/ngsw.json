@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1687806522163,
+  "index": "/anti-verveling/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/anti-verveling/favicon.ico",
+        "/anti-verveling/index.html",
+        "/anti-verveling/main.7bc64b1de8758c35.js",
+        "/anti-verveling/manifest.webmanifest",
+        "/anti-verveling/polyfills.d833005b29e5ec2a.js",
+        "/anti-verveling/runtime.d0c67fa1a4d1fc58.js",
+        "/anti-verveling/styles.82fa61fab36b8edd.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/anti-verveling/assets/icons/icon-128x128.png",
+        "/anti-verveling/assets/icons/icon-144x144.png",
+        "/anti-verveling/assets/icons/icon-152x152.png",
+        "/anti-verveling/assets/icons/icon-192x192.png",
+        "/anti-verveling/assets/icons/icon-384x384.png",
+        "/anti-verveling/assets/icons/icon-512x512.png",
+        "/anti-verveling/assets/icons/icon-72x72.png",
+        "/anti-verveling/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/anti-verveling/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/anti-verveling/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/anti-verveling/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/anti-verveling/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/anti-verveling/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/anti-verveling/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/anti-verveling/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/anti-verveling/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/anti-verveling/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/anti-verveling/index.html": "cc63d140fe2e13c98a9592e87e85440d5a79f2a3",
+    "/anti-verveling/main.7bc64b1de8758c35.js": "86d31300eaacb9ecbc1395fa85a882efc9ac58db",
+    "/anti-verveling/manifest.webmanifest": "b91de811113131a8454a35eee14ca5be8725e6ef",
+    "/anti-verveling/polyfills.d833005b29e5ec2a.js": "4b8de71e13b1a6014e3eef462954db2ecd1c3afc",
+    "/anti-verveling/runtime.d0c67fa1a4d1fc58.js": "762c8f1f169b886895f866ae8ba5b6f254c9218b",
+    "/anti-verveling/styles.82fa61fab36b8edd.css": "1b2b22074ac115f7b6accd6432d9827a011eb54b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
